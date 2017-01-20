@@ -1,0 +1,15 @@
+server:
+  port: 8004
+spring:
+    application:
+        name: configservice
+    cloud:
+        config:
+             server:
+                 git:
+                     uri: https://github.com/GusevAnton/config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8004/eureka
+    eureka-connection-idle-timeout-seconds: 1
