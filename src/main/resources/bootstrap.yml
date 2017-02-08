@@ -9,7 +9,7 @@ spring:
                  git:
                      uri: https://github.com/GusevAnton/config
 logging:
-    path: logs/ConfigService.log
+    file: logs/ConfigService.log
     level:
         org.springframework.web: DEBUG
         com.mycompany: DEBUG
