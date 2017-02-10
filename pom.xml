@@ -9,12 +9,12 @@
 	<packaging>jar</packaging>
 
 	<name>eurekaservice</name>
-	<description>Core com.mycompany.kanban.service</description>
+	<description>Coreservice</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.3.RELEASE</version>
+		<version>1.5.1.RELEASE</version>
 	</parent>
 
 	<properties>

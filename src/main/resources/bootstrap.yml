@@ -10,9 +10,6 @@ spring:
                      uri: https://github.com/GusevAnton/config
 logging:
     file: logs/ConfigService.log
-    level:
-        org.springframework.web: DEBUG
-        com.mycompany: DEBUG
 eureka:
   client:
     service-url:
