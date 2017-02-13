@@ -1,4 +1,4 @@
-package com.mycompany.kanban;
+package com.mycompany.canaban;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,9 +8,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableAutoConfiguration
 @EnableEurekaServer
 @EnableConfigServer
-public class EurekaserviceApplication {
+public class ConfigserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurekaserviceApplication.class, args);
+		SpringApplication.run(ConfigserviceApplication.class, args);
 	}
 }

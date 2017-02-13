@@ -1,2 +1,8 @@
 language: java
 jdk: oraclejdk8
+#env:
+#  global:
+#    - "USER=travis"
+#    - "PASSWORD=password"
+after_success:
+    "scp ./target/configservice.jar travis@canaban.ddns.net:/canaban/configservice"
