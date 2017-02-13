@@ -1,4 +1,4 @@
 language: java
 jdk: oraclejdk8
 after_success:
-    rsync -arv -e "sshpass -f '/password.txt' ssh -o StrictHostKeyChecking=no" --progress /target/configservice.jar travis@canaban.ddns.net:/canaban/configservice
+    rsync -arv -e "sshpass -f '/password.txt' ssh -o StrictHostKeyChecking=no" --progress /target/configservice.jar travis@canaban.ddns.net:./canaban/configservice
