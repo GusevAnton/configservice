@@ -1,0 +1,1 @@
+eval "$(rsync -avz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress /target/configservice.jar canaban.ddns.net:/canaban/configservice)"
