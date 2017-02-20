@@ -8,6 +8,9 @@ spring:
              server:
                  git:
                      uri: https://github.com/GusevAnton/config
+    boot:
+        admin:
+            url: http://localhost:8010
 logging:
     file: logs/ConfigService.log
     level: debug
