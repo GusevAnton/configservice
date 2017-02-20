@@ -73,6 +73,13 @@
 					<executable>true</executable>
 					<finalName>configservice</finalName>
 				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>build-info</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
