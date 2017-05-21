@@ -17,5 +17,5 @@ logging:
 eureka:
   client:
     service-url:
-      defaultZone: http://canaban.ddns.net:8004/eureka
+      defaultZone: http://localhost:8004/eureka
     eureka-connection-idle-timeout-seconds: 1
